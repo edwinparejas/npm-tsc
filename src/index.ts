@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Adds two numbers
  * @param a Number one

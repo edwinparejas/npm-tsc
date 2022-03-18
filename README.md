@@ -7,10 +7,10 @@ $ git init
 
 1. Create files
 
--   README.md
--   .gitignore
-    -   node_modules
-    -   dist
+- README.md
+- .gitignore
+  - node_modules
+  - dist
 
 1. Install dev dependencies
 
@@ -18,6 +18,7 @@ $ git init
 $ npm i -D jest
 $ npm i -D typescript
 $ npm i -D eslint
+$ npm i -D prettier
 ```
 
 1. Run init commands
