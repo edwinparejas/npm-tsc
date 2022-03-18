@@ -13,7 +13,7 @@ export const add = (a: number, b: number) => a + b;
  * @param b Number two
  * @returns Result
  */
-export const substract = (a: number, b: number) => a - b;
+export const substract = (a: number, b: number) => a - b();
 
 /**
  * Multiplies two numbers
