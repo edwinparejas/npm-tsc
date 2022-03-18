@@ -1,14 +1,13 @@
 {
     "name": "epm-npm-tsc",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Este paquete contiene funciones comunes en typescript",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "dev": "npx tsc -w",
         "jest": "npx jest",
-        "build": "npx tsc",
-        "publish": "npm run publish"
+        "build": "npx tsc"
     },
     "keywords": [],
     "author": "",
