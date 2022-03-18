@@ -28,3 +28,10 @@ $ npx jest --init
 $ npx tsc --init
 $ npx eslint --init
 ```
+
+1. Hooks and linting
+
+```bash
+$ npm i -D husky
+$ npm i -D lint-staged
+```
