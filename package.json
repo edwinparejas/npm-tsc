@@ -356,7 +356,8 @@
     },
     "lint-staged": {
         "src/**/*.ts": [
-            "tslint --project . --format stylish"
+            "eslint --cache --fix",
+            "prettier --write"
         ]
     },
     "repository": {
