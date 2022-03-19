@@ -7,8 +7,9 @@
     "scripts": {
         "dev": "npx tsc -w",
         "format": "npx prettier --write .",
-        "jest": "npx jest",
-        "build": "npx tsc"
+        "test": "npx jest",
+        "build": "npx tsc",
+        "prepare": "husky install"
     },
     "keywords": [],
     "author": "",
@@ -348,17 +349,6 @@
         "yallist": "^4.0.0",
         "yargs": "^16.2.0",
         "yargs-parser": "^20.2.9"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.ts": [
-            "eslint --cache --fix",
-            "prettier --write"
-        ]
     },
     "repository": {
         "type": "git",

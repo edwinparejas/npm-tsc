@@ -31,7 +31,20 @@ $ npx eslint --init
 
 1. Hooks and linting
 
+Husky [read more](https://www.npmjs.com/package/husky)
+
 ```bash
+# install
 $ npm i -D husky
-$ npm i -D lint-staged
+
+# configure
+$ npx husky install
+
+# create hook
+npx husky add .husky/pre-commit "npm test"
+
+# test hook
+git add .husky/pre-commit
+git commit -m "Keep calm and commit"
+# `npm test` will run
 ```
