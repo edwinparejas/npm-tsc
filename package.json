@@ -8,8 +8,7 @@
         "dev": "npx tsc -w",
         "format": "npx prettier --write .",
         "test": "npx jest",
-        "build": "npx tsc",
-        "prepare": "husky install"
+        "build": "npx tsc"
     },
     "keywords": [],
     "author": "",
